@@ -1,5 +1,9 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
+import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:lencois_hub/screens/language_screen.dart';
+import 'package:lencois_hub/screens/login_screen.dart';
+import 'package:lencois_hub/screens/home_screen.dart';
 import 'package:lencois_hub/utils/theme.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -18,21 +22,38 @@ class _SplashScreenState extends State<SplashScreen>
   void initState() {
     super.initState();
 
-    // 1️⃣ Controla o tempo e o tipo de animação
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 4),
+      duration: const Duration(seconds: 3),
     );
 
-    // 2️⃣ Define o tipo de transição (fade-in suave)
     _animation = CurvedAnimation(parent: _controller, curve: Curves.easeIn);
 
-    _controller.forward(); // inicia a animação
+    _controller.forward();
+    _decideNextScreen(); // ✅ agora o método EXISTE
+  }
 
-    // 3️⃣ Depois de 3 segundos, muda pra próxima tela
-    Timer(const Duration(seconds: 6), () {
-      Navigator.pushReplacementNamed(context, '/language');
-    });
+  Future<void> _decideNextScreen() async {
+    final prefs = await SharedPreferences.getInstance();
+
+    final language = prefs.getString('language');
+    final logged = prefs.getBool('logged') ?? false;
+
+    await Future.delayed(const Duration(seconds: 3));
+
+    if (!mounted) return;
+
+    if (language == null) {
+      _goTo(const LanguageScreen());
+    } else if (!logged) {
+      _goTo(LoginScreen());
+    } else {
+      _goTo(const HomeScreen());
+    }
+  }
+
+  void _goTo(Widget page) {
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => page));
   }
 
   @override
@@ -51,34 +72,23 @@ class _SplashScreenState extends State<SplashScreen>
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Transform.translate(
-                offset: const Offset(0, 1),
-                child: Image.asset(
-                  'assets/images/logo_lencoishub.png',
-                  height: 350,
+              Image.asset('assets/images/logo_lencoishub.png', height: 300),
+              const SizedBox(height: 16),
+              const Text(
+                'Lençóis Hub',
+                style: TextStyle(
+                  fontFamily: 'achiko',
+                  fontSize: 28,
+                  color: Colors.white,
                 ),
               ),
-              Transform.translate(
-                offset: const Offset(0, -55),
-                child: const Text(
-                  'Lençóis Hub',
-                  style: TextStyle(
-                    fontFamily: 'achiko',
-                    fontSize: 28,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-              Transform.translate(
-                offset: Offset(0, -58),
-                child: const Text(
-                  'Seu guia turístico de Barreirinhas MA',
-                  style: TextStyle(
-                    fontFamily: 'Montserrat-Medium',
-                    fontSize: 16,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w500,
-                  ),
+              const SizedBox(height: 6),
+              const Text(
+                'Seu guia turístico de Barreirinhas MA',
+                style: TextStyle(
+                  fontFamily: 'Montserrat-Medium',
+                  fontSize: 16,
+                  color: Colors.white,
                 ),
               ),
             ],

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:lencois_hub/screens/home_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginScreen extends StatefulWidget {
-  // language: 'pt' | 'en' | 'es'
-  final String language;
-  const LoginScreen({super.key, required this.language});
+  const LoginScreen({super.key});
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
@@ -13,21 +13,22 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _nameCtrl = TextEditingController();
   final TextEditingController _passwordCtrl = TextEditingController();
 
-  // Traduções simples (para app pequeno). Para produção use intl / ARB.
+  String _language = 'pt';
+
   late final Map<String, Map<String, String>> translations;
 
   @override
   void initState() {
     super.initState();
+    _loadLanguage();
+
     translations = {
       'pt': {
         'label_name': 'Nome',
-        'hint_name': 'Digite um nome usuário',
+        'hint_name': 'Digite seu nome',
         'label_password': 'Senha',
         'hint_password': 'Crie uma senha',
         'enter': 'ENTRAR',
-        'or': 'ou',
-        'google': 'Entrar com Google',
       },
       'en': {
         'label_name': 'Name',
@@ -35,8 +36,6 @@ class _LoginScreenState extends State<LoginScreen> {
         'label_password': 'Password',
         'hint_password': 'Create a password',
         'enter': 'SIGN IN',
-        'or': 'or',
-        'google': 'Sign in with Google',
       },
       'es': {
         'label_name': 'Nombre',
@@ -44,15 +43,19 @@ class _LoginScreenState extends State<LoginScreen> {
         'label_password': 'Contraseña',
         'hint_password': 'Crea una contraseña',
         'enter': 'INGRESAR',
-        'or': 'o',
-        'google': 'Ingresar con Google',
       },
     };
   }
 
-  Map<String, String> get t {
-    return translations[widget.language] ?? translations['pt']!;
+  Future<void> _loadLanguage() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      _language = prefs.getString('language') ?? 'pt';
+    });
   }
+
+  Map<String, String> get t =>
+      translations[_language] ?? translations['pt']!;
 
   @override
   void dispose() {
@@ -63,11 +66,9 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Para reproduzir o fundo similar ao seu design, deixei a estrutura para você adaptar.
     return Scaffold(
       body: Stack(
         children: [
-          // Fundo
           SizedBox.expand(
             child: Image.asset(
               'assets/images/background.png',
@@ -75,146 +76,99 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
 
-          // Gradiente
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
-              height: 300,
+              height: 320,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
                     Colors.transparent,
-                    Colors.teal.withValues(alpha: 0.25),
+                    Colors.teal.withValues(alpha: 0.35),
                   ],
                 ),
               ),
             ),
           ),
 
-          // ✅ LOGO FIXA
           Positioned(
-            top: 0, // ajuste conforme quiser
+            top: -30,
             left: 0,
             right: 0,
             child: Center(
               child: Image.asset(
                 'assets/images/logo_login.png',
-                width: 360, // ✓ Aqui você controla o tamanho
+                width: 360,
                 height: 360,
               ),
             ),
-          ), // Conteúdo (centralizado verticalmente com um padding superior)
+          ),
+
           SafeArea(
-            child: Center(
-              child: SingleChildScrollView(
-                physics: const BouncingScrollPhysics(),
-                padding: const EdgeInsets.symmetric(horizontal: 28),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const SizedBox(height: 150),
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.symmetric(horizontal: 28),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: 220),
 
-                    // ícone/logo do topo (você pode substituir)
-                    const SizedBox(height: 40),
+                  Text(
+                    t['label_name']!,
+                    style: const TextStyle(color: Colors.white, fontSize: 14),
+                  ),
+                  const SizedBox(height: 8),
 
-                    // Label Nome
-                    Text(
-                      t['label_name']!,
-                      style: const TextStyle(color: Colors.white, fontSize: 14),
-                    ),
-                    const SizedBox(height: 8),
+                  _buildRoundedInput(
+                    controller: _nameCtrl,
+                    hint: t['hint_name']!,
+                    prefix: Icons.person,
+                  ),
 
-                    // Input customizado com ícone à esquerda e fundo arredondado
-                    _buildRoundedInput(
-                      controller: _nameCtrl,
-                      hint: t['hint_name']!,
-                      prefix: Icons.person,
-                    ),
+                  const SizedBox(height: 18),
 
-                    const SizedBox(height: 18),
+                  Text(
+                    t['label_password']!,
+                    style: const TextStyle(color: Colors.white, fontSize: 14),
+                  ),
+                  const SizedBox(height: 8),
 
-                    // Label Senha
-                    Text(
-                      t['label_password']!,
-                      style: const TextStyle(color: Colors.white, fontSize: 14),
-                    ),
-                    const SizedBox(height: 8),
+                  _buildRoundedInput(
+                    controller: _passwordCtrl,
+                    hint: t['hint_password']!,
+                    prefix: Icons.lock,
+                    obscureText: true,
+                  ),
 
-                    _buildRoundedInput(
-                      controller: _passwordCtrl,
-                      hint: t['hint_password']!,
-                      prefix: Icons.vpn_key,
-                      obscureText: true,
-                    ),
+                  const SizedBox(height: 28),
 
-                    const SizedBox(height: 22),
-
-                    // Botão ENTRAR
-                    Center(
-                      child: ElevatedButton(
-                        onPressed: _onSignInPressed,
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color(0xff055d55),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(24),
-                          ),
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 34,
-                            vertical: 12,
-                          ),
+                  Center(
+                    child: ElevatedButton(
+                      onPressed: _onLoginPressed,
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: const Color(0xff055d55),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(26),
                         ),
-                        child: Text(
-                          t['enter']!,
-                          style: const TextStyle(
-                            fontWeight: FontWeight.w800,
-                            letterSpacing: 1,
-                            color: Colors.white,
-                          ),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 42,
+                          vertical: 14,
                         ),
                       ),
-                    ),
-
-                    const SizedBox(height: 12),
-
-                    // ou
-                    Center(
                       child: Text(
-                        t['or']!,
-                        style: const TextStyle(color: Colors.white70),
-                      ),
-                    ),
-
-                    const SizedBox(height: 12),
-
-                    // Botão Entrar com Google (visual apenas)
-                    Center(
-                      child: OutlinedButton.icon(
-                        onPressed: _onGooglePressed,
-                        style: OutlinedButton.styleFrom(
-                          side: BorderSide.none,
-                          backgroundColor: Colors.white,
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 14,
-                            vertical: 4,
-                          ),
-                        ),
-                        icon: Image.asset(
-                          'assets/images/logo_google.png',
-                          width: 18,
-                          height: 18,
-                        ),
-                        label: Text(
-                          t['google']!,
-                          style: const TextStyle(color: Colors.black87),
+                        t['enter']!,
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: 1,
+                          color: Colors.white,
                         ),
                       ),
                     ),
+                  ),
 
-                    const SizedBox(height: 40),
-                  ],
-                ),
+                  const SizedBox(height: 40),
+                ],
               ),
             ),
           ),
@@ -223,7 +177,6 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
-  // helper: campo com borda arredondada + ícone prefixo + fundo semitransparente
   Widget _buildRoundedInput({
     required TextEditingController controller,
     required String hint,
@@ -231,20 +184,16 @@ class _LoginScreenState extends State<LoginScreen> {
     bool obscureText = false,
   }) {
     return Container(
-      height: 52,
+      height: 54,
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.32),
-        borderRadius: BorderRadius.circular(28),
+        borderRadius: BorderRadius.circular(30),
       ),
-      padding: const EdgeInsets.symmetric(horizontal: 12),
+      padding: const EdgeInsets.symmetric(horizontal: 14),
       child: Row(
         children: [
-          Container(
-            width: 36,
-            alignment: Alignment.center,
-            child: Icon(prefix, color: Colors.white, size: 18),
-          ),
-          const SizedBox(width: 8),
+          Icon(prefix, color: Colors.white, size: 18),
+          const SizedBox(width: 10),
           Expanded(
             child: TextField(
               controller: controller,
@@ -255,9 +204,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 hintText: hint,
                 hintStyle: TextStyle(
                   fontFamily: 'Montserrat',
-                  fontWeight: FontWeight.w400,
                   fontSize: 15,
-                  color: Colors.white.withValues(alpha: 10),
+                  color: Colors.white.withValues(alpha: 0.6),
                 ),
               ),
             ),
@@ -267,30 +215,26 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
-  // ações (no front-end sem backend apenas demo)
-  void _onSignInPressed() {
+  Future<void> _onLoginPressed() async {
     final name = _nameCtrl.text.trim();
-    final pwd = _passwordCtrl.text.trim();
+    final password = _passwordCtrl.text.trim();
 
-    // validações simples
-    if (name.isEmpty || pwd.isEmpty) {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text('Preencha todos os campos')));
+    if (name.isEmpty || password.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Preencha todos os campos')),
+      );
       return;
     }
 
-    // Aqui você pode navegar para a próxima tela. Exemplo:
-    // Navigator.push(...);
-    ScaffoldMessenger.of(
-      context,
-    ).showSnackBar(SnackBar(content: Text('Simulando login (front-only)')));
-  }
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString('user_name', name);
+    await prefs.setBool('logged', true);
 
-  void _onGooglePressed() {
-    // Por enquanto só um placeholder visual.
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Google Sign-In (a integrar depois)')),
+    if (!mounted) return;
+
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (_) => const HomeScreen()),
     );
   }
 }

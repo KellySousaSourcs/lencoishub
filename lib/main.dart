@@ -1,33 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:lencois_hub/screens/home_screen.dart';
+import 'package:lencois_hub/screens/language_screen.dart';
+import 'package:lencois_hub/screens/login_screen.dart';
+import 'package:lencois_hub/screens/splash_screen.dart';
 
-import 'screens/language_screen.dart';
-import 'screens/login_screen.dart';
-import 'screens/splash_screen.dart';
-
-void main() async {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
-
-  final prefs = await SharedPreferences.getInstance();
-  final savedLanguage = prefs.getString('language');
-
-  runApp(LencoisHubApp(language: savedLanguage));
+  runApp(const LencoisHubApp());
 }
 
 class LencoisHubApp extends StatelessWidget {
-  final String? language;
-
-  const LencoisHubApp({super.key, this.language});
+  const LencoisHubApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Lençóis Hub',
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(), // Vamos manter sua splash primeiro
+      home: const SplashScreen(),
       routes: {
-        '/language': (context) => const LanguageScreen(),
-        '/login': (context) => LoginScreen(language: language ?? ''),
+        '/language': (_) => const LanguageScreen(),
+        '/login': (_) => const LoginScreen(), // ✅ SEM parâmetro
+        '/home': (_) => const HomeScreen(),
       },
     );
   }
