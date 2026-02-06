@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lencois_hub/utils/translations.dart';
 
 class HomeHeader extends StatelessWidget {
   const HomeHeader({super.key});
@@ -34,12 +35,12 @@ class HomeHeader extends StatelessWidget {
               borderRadius: BorderRadius.circular(50),
             ),
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-            child: const Row(
+            child: Row(
               children: [
                 Icon(Icons.search, color: Color(0xff625555)),
                 SizedBox(width: 8),
                 Text(
-                  'Pesquise seu destino',
+                  Translator.t('search_hint'),
                   style: TextStyle(color: Colors.grey),
                 ),
               ],

@@ -19,9 +19,10 @@ class AppTranslations {
   static const Map<String, Map<String, String>> data = {
     'pt': {
       'home_title': 'Início',
-      'profile': 'Perfil',
-      'explore': 'Explorar',
-      'welcome': 'Bem-vindo',
+      'profile_title': 'Perfil',
+      'explore_title': 'Explorar',
+      'transfer_title': 'Transfer',
+      'events_title': 'Eventos',
       'search_hint': 'Pesquise seu destino',
       'popular_restaurants': 'Restaurantes Populares',
       'see_more': 'Ver mais',
@@ -41,9 +42,10 @@ class AppTranslations {
 
     'en': {
       'home_title': 'Home',
-      'profile': 'Profile',
-      'explore': 'Explore',
-      'welcome': 'Welcome',
+      'profile_title': 'Profile',
+      'explore_title': 'Explore',
+      'transfer_title': 'Transfer',
+      'events_title': 'Events',
       'search_hint': 'Search your destination',
       'popular_restaurants': 'Popular Restaurants',
       'see_more': 'See more',
@@ -63,9 +65,10 @@ class AppTranslations {
 
     'es': {
       'home_title': 'Inicio',
-      'profile': 'Perfil',
-      'explore': 'Explorar',
-      'welcome': 'Bienvenido',
+      'profile_title': 'Perfil',
+      'explore_title': 'Explorar',
+      'transfer_title': 'Translado',
+      'events_title': 'Eventos',
       'search_hint': 'Busca tu destino',
       'popular_restaurants': 'Restaurantes Populares',
       'see_more': 'Ver más',

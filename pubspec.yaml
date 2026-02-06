@@ -64,6 +64,19 @@ flutter:
   - assets/images/background.png
   - assets/images/logo_google.png
   - assets/images/logo_login.png
+  - assets/images/categories/ice_cream_shop.jpg
+  - assets/images/categories/restaurant.jpg
+  - assets/images/categories/inn.jpg
+  - assets/images/categories/handcraft.jpg
+  - assets/images/categories/tour_agency.jpg
+  - assets/images/categories/itineraries.jpg
+  - assets/images/categories/bar.jpg
+  - assets/images/categories/square.jpg
+  - assets/images/categories/beauty_salon.jpg
+  - assets/images/categories/laundry.jpg
+  - assets/images/categories/clothing_store.jpg
+  - assets/images/place/lavatec.jfif
+  - assets/images/place/lavanderia.png
   - assets/icons/
   - assets/lang/
 

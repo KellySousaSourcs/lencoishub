@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lencois_hub/widgets/home_categories.dart';
 import 'package:lencois_hub/widgets/home_header.dart';
 import '../utils/translations.dart';
 
@@ -43,8 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.only(top: 12),
                 child: Column(
                   children: [
-                    // 🔹 CATEGORIAS (BOLINHAS)
-                    HomeCategories(),
+                    // 🔹 PRÓXIMOS EVENTOS (depois a gente faz)
 
                     const SizedBox(height: 24),
 
@@ -90,17 +88,21 @@ class _BottomNav extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
+      
+      backgroundColor: Color(0xff019879),
+      selectedItemColor: Color(0xffFFFFFF),
+      unselectedItemColor: Color(0xffFFFFFF).withValues(alpha: 0.7),
       currentIndex: 0,
       type: BottomNavigationBarType.fixed,
       items: [
-        BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-        BottomNavigationBarItem(icon: Icon(Icons.event), label: 'Eventos'),
+        BottomNavigationBarItem(icon: Icon(Icons.home), label: Translator.t('home_title')),
+        BottomNavigationBarItem(icon: Icon(Icons.event), label: Translator.t('events_title')),
         BottomNavigationBarItem(
           icon: Icon(Icons.directions_bus),
-          label: 'Transfer',
+          label: Translator.t('transfer_title'),
         ),
-        BottomNavigationBarItem(icon: Icon(Icons.explore), label: 'Explorar'),
-        BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Perfil'),
+        BottomNavigationBarItem(icon: Icon(Icons.explore), label: Translator.t('explore_title')),
+        BottomNavigationBarItem(icon: Icon(Icons.person), label: Translator.t('profile_title')),
       ],
     );
   }
