@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lencois_hub/widgets/category_item.dart';
 import 'package:lencois_hub/widgets/home_header.dart';
 import '../utils/translations.dart';
 
@@ -36,6 +37,15 @@ class _HomeScreenState extends State<HomeScreen> {
             // 🔹 HEADER FIXO
             const HomeHeader(),
             const SizedBox(height: 6),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                children: [
+                  CategoryItem(label: Translator.t('cat_inn'), imagePath: ('assets/images/categories/inn.jpg'),)
+                ],
+              ),
+            ),
             // 🔹 CONTEÚDO SCROLLÁVEL
             Expanded(
               child: SingleChildScrollView(
