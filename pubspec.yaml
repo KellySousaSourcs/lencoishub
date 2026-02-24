@@ -64,7 +64,6 @@ flutter:
   - assets/images/background.png
   - assets/images/logo_google.png
   - assets/images/logo_login.png
-  - assets/images/categories/ice_cream_shop.jpg
   - assets/images/categories/restaurant.jpg
   - assets/images/categories/inn.jpg
   - assets/images/categories/handcraft.jpg
@@ -77,8 +76,6 @@ flutter:
   - assets/images/categories/clothing_store.jpg
   - assets/images/place/lavatec.jfif
   - assets/images/place/lavanderia.png
-  - assets/icons/
-  - assets/lang/
 
 
   fonts:
