@@ -9,7 +9,7 @@ class CategoryItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      padding: const EdgeInsets.all(6),
       child: Column(
         children: [
           Container(
@@ -22,7 +22,7 @@ class CategoryItem extends StatelessWidget {
               boxShadow: [
                 BoxShadow(
                   color: Color(0xff000000).withValues(alpha: 0.25),
-                  blurRadius: 0.4,
+                  blurRadius: 4,
                   offset: const Offset(2, 2),
                 ),
               ],
@@ -36,7 +36,7 @@ class CategoryItem extends StatelessWidget {
           Text(
             label,
             style: TextStyle(
-              fontSize: 14,
+              fontSize: 12,
               fontWeight: FontWeight.w400,
               color: Color(0xff000000),
               fontFamily: 'Montserrat-Medium',

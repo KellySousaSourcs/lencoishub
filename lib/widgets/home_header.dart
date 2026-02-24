@@ -15,7 +15,7 @@ class HomeHeader extends StatelessWidget {
           BoxShadow(
             color: Color(0x1A000000), // sombra bem suave
             blurRadius: 8,
-            offset: Offset(0, 4), // sombra para baixo
+            offset: Offset(2, 2), // sombra para baixo
           ),
         ],
       ),

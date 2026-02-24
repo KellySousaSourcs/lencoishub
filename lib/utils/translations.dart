@@ -25,7 +25,9 @@ class AppTranslations {
       'events_title': 'Eventos',
       'search_hint': 'Pesquise seu destino',
       'popular_restaurants': 'Restaurantes Populares',
-      'see_more': 'Ver mais',
+      'popular_inns': 'Pousadas Populares',
+      'popular_travel_agency': 'Agências de Turismo Populares',
+      'see_more': 'ver mais',
 
       'cat_laundry': 'Lavanderia',
       'cat_handcraft': 'Artesanato',
@@ -47,7 +49,9 @@ class AppTranslations {
       'events_title': 'Events',
       'search_hint': 'Search your destination',
       'popular_restaurants': 'Popular Restaurants',
-      'see_more': 'See more',
+      'popular_inns': 'Popular Inns',
+      'popular_travel_agency': 'Popular Travel Agencies',
+      'see_more': 'see more',
 
       'cat_laundry': 'Laundry',
       'cat_handcraft': 'Handcraft',
@@ -69,7 +73,9 @@ class AppTranslations {
       'events_title': 'Eventos',
       'search_hint': 'Busca tu destino',
       'popular_restaurants': 'Restaurantes Populares',
-      'see_more': 'Ver más',
+      'popular_inns': 'Posadas Populares',
+      'popular_travel_agency': 'Agencias de Turismo Populares',
+      'see_more': 'ver más',
 
       'cat_laundry': 'Lavandería',
       'cat_handcraft': 'Artesanía',

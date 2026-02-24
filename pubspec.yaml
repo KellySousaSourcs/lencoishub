@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.3
+  carousel_slider: ^5.0.0
 
 dev_dependencies:
   flutter_test:
@@ -76,6 +77,18 @@ flutter:
   - assets/images/categories/clothing_store.jpg
   - assets/images/place/lavatec.jfif
   - assets/images/place/lavanderia.png
+  - assets/images/promo_banner/promo1.jpg
+  - assets/images/promo_banner/promo2.jpg
+  - assets/images/promo_banner/promo3.png
+  - assets/images/photo_card/restaurante_jacare.png
+  - assets/images/photo_card/restaurante_saborear.avif
+  - assets/images/photo_card/maisgostoso.png
+  - assets/images/photo_card/saopaulo.jfif
+  - assets/images/photo_card/tigre_turismo.jfif
+  - assets/images/photo_card/vale_lencois.png
+  - assets/images/photo_card/boa_vista.jfif
+  - assets/images/photo_card/barreirinhas_pousada.png
+  - assets/images/photo_card/pousada_rancho.avif
 
 
   fonts:
