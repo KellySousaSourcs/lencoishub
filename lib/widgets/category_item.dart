@@ -12,15 +12,35 @@ class CategoryItem extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 8.0),
       child: Column(
         children: [
-          CircleAvatar(
-            radius: 35,
-            backgroundImage: AssetImage(imagePath),
-            backgroundColor: Color(0xffd9d9d9),
+          Container(
+            width: 60,
+            height: 60,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: Color(0xffd9d9d9),
+              border: Border.all(color: Color(0xffd9d9d9), width: 2),
+              boxShadow: [
+                BoxShadow(
+                  color: Color(0xff000000).withValues(alpha: 0.25),
+                  blurRadius: 0.4,
+                  offset: const Offset(2, 2),
+                ),
+              ],
+              image: DecorationImage(
+                image: AssetImage(imagePath),
+                fit: BoxFit.cover,
+              ),
+            ),
           ),
-          const SizedBox(height: 8),
+          const SizedBox(height: 6),
           Text(
             label,
-            style: TextStyle(fontSize: 14, fontWeight: FontWeight.w300),
+            style: TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.w400,
+              color: Color(0xff000000),
+              fontFamily: 'Montserrat-Medium',
+            ),
           ),
         ],
       ),

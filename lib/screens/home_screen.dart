@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             // 🔹 HEADER FIXO
             const HomeHeader(),
-            const SizedBox(height: 6),
+            const SizedBox(height: 8),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -60,11 +60,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   CategoryItem(
                     label: Translator.t('cat_tour_agency'),
-                    imagePath: ('assets/images/categories/tour_agency.jg'),
+                    imagePath: ('assets/images/categories/tour_agency.jpg'),
                   ),
                   CategoryItem(
                     label: Translator.t('cat_itineraries'),
-                    imagePath: ('assets/imags/categories/itineraries.jpg'),
+                    imagePath: ('assets/images/categories/itineraries.jpg'),
                   ),
                   CategoryItem(
                     label: Translator.t('cat_restaurant'),
@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     label: Translator.t('cat_clothing_store'),
                     imagePath: ('assets/images/categories/clothing_store.jpg'),
                   ),
-                  
+
                 ],
               ),
             ),
