@@ -30,7 +30,7 @@ class _PromoCarouselState extends State<PromoCarousel> {
           ),
           items: widget.images.map((path) {
             return Container(
-              margin: const EdgeInsets.symmetric(horizontal: 6),
+              margin: const EdgeInsets.symmetric(horizontal: 8),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 border: Border.all(color: Color(0xffd9d9d9), width: 2),

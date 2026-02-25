@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.3
   carousel_slider: ^5.0.0
+  url_launcher: ^6.3.2
 
 dev_dependencies:
   flutter_test:
@@ -89,6 +90,23 @@ flutter:
   - assets/images/photo_card/boa_vista.jfif
   - assets/images/photo_card/barreirinhas_pousada.png
   - assets/images/photo_card/pousada_rancho.avif
+  - assets/images/images_de_fundo/fachadajacare.png
+  - assets/images/images_de_fundo/jacare_fotos.jpg
+  - assets/images/images_de_fundo/espaguete_jacare.jpg
+  - assets/images/images_de_fundo/ambiente_bambu.jfif
+  - assets/images/images_de_fundo/espaco_bambu.jfif
+  - assets/images/images_de_fundo/pizza_bambu.jfif
+  - assets/images/images_de_fundo/ambiente_saborear.webp
+  - assets/images/images_de_fundo/salada_saborear.webp
+  - assets/images/images_de_fundo/torta_saborear.webp
+  - assets/images/photo_card/bambu.jfif
+  - assets/images/images_de_fundo/agencia/vale_lencois_interior.jfif
+  - assets/images/images_de_fundo/agencia/passeio_vale_lencois.jfif  
+  - assets/images/images_de_fundo/agencia/paisagem_vale_lencois.jfif
+  - assets/images/images_de_fundo/pousada/rancho_quartos.avif
+  - assets/images/images_de_fundo/pousada/rancho_pousada.avif
+  - assets/images/images_de_fundo/pousada/rancho_paisagem.avif
+
 
 
   fonts:

@@ -28,6 +28,24 @@ class AppTranslations {
       'popular_inns': 'Pousadas Populares',
       'popular_travel_agency': 'Agências de Turismo Populares',
       'see_more': 'ver mais',
+      'open_all_day': 'Aberto',
+      'time_24h': '24 Horas',
+      'description_barreirinhas':
+          'Pousada localizada no coração da cidade de Lençóis, conhecida por sua hospitalidade e ambiente acolhedor.',
+      'description_boa_vista':
+          'Pousada localizada no coração da cidade de Lençóis, conhecida por sua hospitalidade e ambiente acolhedor.',
+      'description_rancho':
+          'Pousada localizada no coração da cidade de Lençóis, conhecida por sua hospitalidade e ambiente acolhedor.',
+      'description_vale':
+          'Agência de turismo localizada no coração da cidade de Lençóis, conhecida por seus passeios incríveis e atendimento de qualidade.',
+      'description_saborear':
+          'Restaurante localizado no coração da cidade de Lençóis, conhecido por sua comida típica e ambiente acolhedor.',
+      'description_bambu':
+          'Restaurante localizado no coração da cidade de Lençóis, conhecido por sua comida típica e ambiente acolhedor.',
+      'description_jacare':
+          'Restaurante localizado no coração da cidade de Lençóis, conhecido por sua comida típica e ambiente acolhedor.',
+      'map_title': 'Localização',
+      'text_directions': 'Abrir no Googles Maps para ver a rota',
 
       'cat_laundry': 'Lavanderia',
       'cat_handcraft': 'Artesanato',
@@ -52,7 +70,25 @@ class AppTranslations {
       'popular_inns': 'Popular Inns',
       'popular_travel_agency': 'Popular Travel Agencies',
       'see_more': 'see more',
+      'open_all_day': 'Open',
+      'time_24h': '24 Hours',
+      'description_barreirinhas':
+          'Inn located in the heart of the city of Lençóis, known for its hospitality and cozy atmosphere.',
+      'description_boa_vista':
+          'Inn located in the heart of the city of Lençóis, known for its hospitality and cozy atmosphere.',
+      'description_rancho':
+          'Inn located in the heart of the city of Lençóis, known for its hospitality and cozy atmosphere.',
+      'description_vale':
+          'Tour agency located in the heart of the city of Lençóis, known for its amazing tours and quality service.',
+      'description_saborear':
+          'Restaurant located in the heart of the city of Lençóis, known for its typical food and cozy atmosphere.',
+      'description_bambu':
+          'Restaurant located in the heart of the city of Lençóis, known for its typical food and cozy atmosphere.',
+      'description_jacare':
+          'Restaurant located in the heart of the city of Lençóis, known for its typical food and cozy atmosphere.',
 
+      'text_directions': 'Open in Google Maps to see the route',
+      'map_title': 'Location',
       'cat_laundry': 'Laundry',
       'cat_handcraft': 'Handcraft',
       'cat_bar': 'Bar',
@@ -76,7 +112,26 @@ class AppTranslations {
       'popular_inns': 'Posadas Populares',
       'popular_travel_agency': 'Agencias de Turismo Populares',
       'see_more': 'ver más',
+      'open_all_day': 'Abierto',
+      'time_24h': '24 Horas',
+      'description_barreirinhas':
+          'Posada ubicada en el corazón de la ciudad de Lençóis, conocida por su hospitalidad y ambiente acogedor.',
+      'description_boa_vista':
+          'Posada ubicada en el corazón de la ciudad de Lençóis, conocida por su hospitalidad y ambiente acogedor.',
+      'description_rancho':
+          'Posada ubicada en el corazón de la ciudad de Lençóis, conocida por su hospitalidad y ambiente acogedor.',
+      'description_vale':
+          'Agencia de turismo ubicada en el corazón de la ciudad de Lençóis, conocida por sus increíbles paseos y servicio de calidad.',
+      'description_saborearte':
+          'Restaurante ubicado en el corazón de la ciudad de Lençóis, conocido por su comida típica y ambiente acogedor.',
+      'description_bambu':
+          ' Restaurante ubicadoen el corazón de la ciudad de Lençóis, conocido por su comida típica y ambiente acogedor',
 
+      'description_jacare':
+          'Restaurante ubicado en el corazón de la ciudad de Lençóis, conocido por su comida típica y ambiente acogedor.',
+
+      'map_title': 'Ubicación',
+      'text_directions': 'Abrir no Googles Maps para ver a rota',
       'cat_laundry': 'Lavandería',
       'cat_handcraft': 'Artesanía',
       'cat_bar': 'Bar',

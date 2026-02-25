@@ -45,22 +45,29 @@ class PlaceCard extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 8),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Expanded(
-                  child: Text(
-                    name,
-                    style: TextStyle(fontWeight: FontWeight.w600),
+            SizedBox(
+              height: 40,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Expanded(
+                    child: Text(
+                      name,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(fontWeight: FontWeight.w600),
+                    ),
                   ),
-                ),
-                Row(
-                  children: [
-                    Text(rating, style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500)),
-                    Icon(Icons.star, size: 14, color: Colors.orange),
-                  ],
-                ),
-              ],
+                  const SizedBox(width: 2),
+                  Row(
+                    children: [
+                      Text(rating, style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500)),
+                      Icon(Icons.star, size: 14, color: Colors.orange),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ],
         ),
