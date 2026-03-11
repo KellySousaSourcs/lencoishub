@@ -49,14 +49,13 @@ class AppTranslations {
 
       'cat_laundry': 'Lavanderia',
       'cat_handcraft': 'Artesanato',
-      'cat_bar': 'Bar',
-      'cat_square': 'Praça',
+      'cat_sweet': 'Doceria',
+      'cat_fast_food': 'Lanches',
       'cat_restaurant': 'Restaurante',
       'cat_inn': 'Pousada',
       'cat_tour_agency': 'Agência de Turismo',
       'cat_beauty_salon': 'Salão de Beleza',
       'cat_clothing_store': 'Loja de Roupas',
-      'cat_itineraries': 'Roteiros',
     },
 
     'en': {
@@ -91,14 +90,13 @@ class AppTranslations {
       'map_title': 'Location',
       'cat_laundry': 'Laundry',
       'cat_handcraft': 'Handcraft',
-      'cat_bar': 'Bar',
-      'cat_square': 'Square',
+      'cat_sweet': 'Sweet',
+      'cat_fast_food': 'Fast Food',
       'cat_restaurant': 'Restaurant',
       'cat_inn': 'Inn',
       'cat_tour_agency': 'Tour Agency',
       'cat_beauty_salon': 'Beauty Salon',
       'cat_clothing_store': 'Clothing Store',
-      'cat_itineraries': 'Itineraries',
     },
 
     'es': {
@@ -110,7 +108,7 @@ class AppTranslations {
       'search_hint': 'Busca tu destino',
       'popular_restaurants': 'Restaurantes Populares',
       'popular_inns': 'Posadas Populares',
-      'popular_travel_agency': 'Agencias de Turismo Populares',
+      'popular_travel_agency': 'Agencias de Turismo',
       'see_more': 'ver más',
       'open_all_day': 'Abierto',
       'time_24h': '24 Horas',
@@ -134,14 +132,17 @@ class AppTranslations {
       'text_directions': 'Abrir no Googles Maps para ver a rota',
       'cat_laundry': 'Lavandería',
       'cat_handcraft': 'Artesanía',
-      'cat_bar': 'Bar',
-      'cat_square': 'Plaza',
+      'cat_sweet': 'Doceria',
+      'cat_fast_food': 'Lanches',
       'cat_restaurant': 'Restaurante',
       'cat_inn': 'Posada',
       'cat_tour_agency': 'Agencia de Turismo',
       'cat_beauty_salon': 'Salón de Belleza',
       'cat_clothing_store': 'Tienda de Ropa',
-      'cat_itineraries': 'Rutas',
+
+      'des_vale': 'transfer - turismo',
+      'des_saopaulo': 'transfer - ecoturismo',
+      'des_tigre':'transfer - turismo',
     },
   };
 }

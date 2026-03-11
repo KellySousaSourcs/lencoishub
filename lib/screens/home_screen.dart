@@ -18,12 +18,8 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final List<Map<String, String>> categories = [
     {'label': 'cat_inn', 'image': 'assets/images/categories/inn.jpg'},
-    {'label': 'cat_bar', 'image': 'assets/images/categories/bar.jpg'},
-    {'label': 'cat_square', 'image': 'assets/images/categories/square.jpg'},
-    {
-      'label': 'cat_itineraries',
-      'image': 'assets/images/categories/itineraries.jpg',
-    },
+    {'label': 'cat_sweet', 'image': 'assets/images/categories/bar.jpg'},
+    {'label': 'cat_fast_food', 'image': 'assets/images/categories/square.jpg'},
     {
       'label': 'cat_restaurant',
       'image': 'assets/images/categories/restaurant.jpg',
@@ -44,22 +40,6 @@ class _HomeScreenState extends State<HomeScreen> {
     {
       'label': 'cat_clothing_store',
       'image': 'assets/images/categories/clothing_store.jpg',
-    },
-  ];
-
-  final List<Map<String, dynamic>> restaurantes = [
-    {
-      'name': 'Restaurante Jacaré',
-      'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-      'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
-      'description': 'description_jacare',
-      'photos': [
-        'assets/images/images_de_fundo/espaguete_jacare.jpg',
-        'assets/images/images_de_fundo/fachadajacare.png',
-        'assets/images/images_de_fundo/jacare_fotos.jpg',
-      ],
-      'openStatusKey': 'open_all_day',
-      'timeValue': 'time_24h',
     },
   ];
 
