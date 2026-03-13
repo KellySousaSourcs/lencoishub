@@ -85,12 +85,19 @@ flutter:
   - assets/images/photo_card/restaurante_saborear.avif
   - assets/images/photo_card/maisgostoso.png
   - assets/images/photo_card/saopaulo.jfif
+  - assets/images/photo_card/evento_artesao.jpeg
   - assets/images/photo_card/tigre_turismo.jfif
   - assets/images/photo_card/vale_lencois.png
   - assets/images/photo_card/boa_vista.jfif
   - assets/images/photo_card/barreirinhas_pousada.png
   - assets/images/photo_card/pousada_rancho.avif
   - assets/images/images_de_fundo/fachadajacare.png
+  - assets/images/images_de_fundo/prog.png
+  - assets/images/images_de_fundo/educar.jpeg
+  - assets/images/images_de_fundo/arte.png
+  - assets/images/images_de_fundo/hea.png
+  - assets/images/images_de_fundo/jazz.png
+  - assets/images/images_de_fundo/arra.png
   - assets/images/images_de_fundo/jacare_fotos.jpg
   - assets/images/images_de_fundo/espaguete_jacare.jpg
   - assets/images/images_de_fundo/ambiente_bambu.jfif
@@ -106,6 +113,16 @@ flutter:
   - assets/images/images_de_fundo/pousada/rancho_quartos.avif
   - assets/images/images_de_fundo/pousada/rancho_pousada.avif
   - assets/images/images_de_fundo/pousada/rancho_paisagem.avif
+
+  - assets/images/explorar/b1.png
+  - assets/images/explorar/b2.png
+  - assets/images/explorar/b3.png
+  - assets/images/explorar/bb1.png
+  - assets/images/explorar/bb2.png
+  - assets/images/explorar/bb3.png
+  - assets/images/explorar/bb4.png
+  - assets/images/explorar/bb5.png
+  - assets/images/explorar/bb6.png
 
 
 
