@@ -2,25 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:lencois_hub/utils/translations.dart';
 import 'package:lencois_hub/widgets/main_action_button.dart';
 
-class PlaceDetailsScreen extends StatelessWidget {
-  final String name;
-  final String mainImage;
-  final String description;
-  final List<String> photos;
-  final String openStatusKey;
-  final String timeValue;
-  final String mapTitleKey;
-  
+class CategoryDetailsScreen extends StatelessWidget {
+  final Map<String, dynamic> local;
 
-  const PlaceDetailsScreen({
+  const CategoryDetailsScreen({
     super.key,
-    required this.name,
-    required this.mainImage,
-    required this.description,
-    required this.photos,
-    required this.openStatusKey,
-    required this.timeValue,
-    required this.mapTitleKey,
+    required this.local,
   });
 
   @override
@@ -33,7 +20,7 @@ class PlaceDetailsScreen extends StatelessWidget {
             width: double.infinity,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage(mainImage),
+                image: AssetImage(local['mainImage']),
                 fit: BoxFit.cover,
               ),
             ),
@@ -81,7 +68,7 @@ class PlaceDetailsScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            name,
+                            local['name'],
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontSize: 24,
@@ -101,7 +88,7 @@ class PlaceDetailsScreen extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    Translator.t(openStatusKey),
+                                    Translator.t(local['openStatusKey']),
                                     style: const TextStyle(
                                       fontSize: 12,
                                       color: Color(0xff534f4f),
@@ -109,7 +96,7 @@ class PlaceDetailsScreen extends StatelessWidget {
                                     ),
                                   ),
                                   Text(
-                                    Translator.t(timeValue),
+                                    Translator.t(local['timeValue']),
                                     style: TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.w500,
@@ -121,7 +108,7 @@ class PlaceDetailsScreen extends StatelessWidget {
                           ),
                           SizedBox(height: 25),
                           Text(
-                            description,
+                            Translator.t(local['descriptionKey']),
                             style: TextStyle(
                               fontSize: 13,
                               fontWeight: FontWeight.w400,
@@ -146,7 +133,7 @@ class PlaceDetailsScreen extends StatelessWidget {
                                             ),
                                           ),
                                           body: Center(
-                                            child: Image.asset(photos[index]),
+                                            child: Image.asset(local['photos'][index]),
                                           ),
                                         ),
                                       ),
@@ -158,7 +145,7 @@ class PlaceDetailsScreen extends StatelessWidget {
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(12),
                                       image: DecorationImage(
-                                        image: AssetImage(photos[index]),
+                                        image: AssetImage(local['photos'][index]),
                                         fit: BoxFit.cover,
                                       ),
                                     ),
@@ -166,12 +153,12 @@ class PlaceDetailsScreen extends StatelessWidget {
                                 );
                               },
                               scrollDirection: Axis.horizontal,
-                              itemCount: photos.length,
+                              itemCount: local['photos'].length,
                             ),
                           ),
                           SizedBox(height: 20),
                           Text(
-                            mapTitleKey,
+                            Translator.t(local['mapTitleKey']),
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.w600,

@@ -4,7 +4,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_jacare', // Chave para o seu arquivo de tradução
+        'des_jacare', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -18,7 +18,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_saborear', // Chave para o seu arquivo de tradução
+        'des_saborear', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -32,7 +32,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_bambu', // Chave para o seu arquivo de tradução
+        'des_bambu', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -46,7 +46,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_bambaê', // Chave para o seu arquivo de tradução
+        'des_bambaê', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -60,7 +60,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_nautz', // Chave para o seu arquivo de tradução
+        'des_nautz', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -74,7 +74,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_jacare', // Chave para o seu arquivo de tradução
+        'des_terral', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -88,7 +88,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_mangue', // Chave para o seu arquivo de tradução
+        'des_mangue', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -102,7 +102,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_canoa', // Chave para o seu arquivo de tradução
+        'des_canoa', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -116,7 +116,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_bristro_das_dunas', // Chave para o seu arquivo de tradução
+        'des_bristro_das_dunas', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -130,7 +130,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_cantinho_do_joao', // Chave para o seu arquivo de tradução
+        'des_cantinho_do_joao', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -144,7 +144,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_cozinha_macarico', // Chave para o seu arquivo de tradução
+        'des_cozinha_macarico', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -158,7 +158,7 @@ final List<Map<String, dynamic>> listaRestaurantes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_la_terazza', // Chave para o seu arquivo de tradução
+        'des_la_terazza', // Chave para o seu arquivo de tradução
     'photos': [
       'assets/images/images_de_fundo/espaguete_jacare.jpg',
       'assets/images/images_de_fundo/fachadajacare.png',
@@ -173,9 +173,9 @@ final List<Map<String, dynamic>> listaRestaurantes = [
 final List<Map<String, dynamic>> listaPousadas = [
   {
     'name': 'Pousada Paraíso do Lençóis',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_paraíso_do_lençóis',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_paraíso_do_lencois',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -183,9 +183,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Casa Dunas',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_casa_dunas',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_casa_dunas',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -193,9 +193,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Gran Lençóis Flat',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_gran_lençóis_flat',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_gran_lençóis_flat',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -203,9 +203,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Hotel Pousada do Buriti',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_hotel_pousada_do_buriti',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_hotel_pousada_do_buriti',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -213,9 +213,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Barreirinhas',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_barreirinhas',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_barreirinhas',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -223,9 +223,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Encantes do Nordeste',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_encantes_do_nordeste',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_encantes_do_nordeste',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -233,9 +233,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Toca do Vaidoso',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_toca_do_vaidoso',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_toca_do_vaidoso',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -243,9 +243,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Vila de Charme',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_vila_de_charme',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_vila_de_charme',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -253,9 +253,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Vilas-Boas',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_vilas_boas',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_vilas_boas',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -263,9 +263,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada do Rio Barreirinhas',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_do_rio_barreirinhas',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_do_rio_barreirinhas',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -273,9 +273,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'JM Pousada Barreirinhas',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_jm_pousada_barreirinhas',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_jm_pousada_barreirinhas',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -283,9 +283,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Rio Preguiça Hotel',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_rio_preguiça_hotel',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_rio_preguiça_hotel',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -293,9 +293,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Recanto dos Lençóis',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_recanto_dos_lençóis',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_recanto_dos_lençóis',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -303,9 +303,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada do Gaúcho',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_do_gaúcho',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_do_gaúcho',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -313,9 +313,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Atairu',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_atairu',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_atairu',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -323,9 +323,9 @@ final List<Map<String, dynamic>> listaPousadas = [
   },
   {
     'name': 'Pousada Recanto das Árvores',
-    'mainImage': 'assets/images/pousada_capa.png',
-    'imageCard': 'assets/images/pousada_card.png',
-    'descriptionKey': 'description_pousada_recanto_das_árvore]',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_pousada_recanto_das_árvore',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -336,9 +336,9 @@ final List<Map<String, dynamic>> listaPousadas = [
 final List<Map<String, dynamic>> listaAgencias = [
   {
     'name': 'Agência Fly Lençóis',
-    'mainImage': 'assets/images/agencia_capa.png',
-    'imageCard': 'assets/images/agencia_card.png',
-    'descriptionKey': 'description_agencia_fly_lençóis',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
+    'descriptionKey': 'des_agencia_fly_lençóis',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -346,9 +346,9 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência Guaratur',
-    'mainImage': 'assets/images/agencia_capa.png',
-    'imageCard': 'assets/images/agencia_card.png',
-    'descriptionKey': 'description_agencia_guaratur',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
+    'descriptionKey': 'des_agencia_guaratur',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -356,13 +356,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência Rota do Sol Tour',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_rota_do_sol_tour', // Chave para o seu arquivo de tradução
+        'des_agencia_rota_do_sol_tour', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -370,13 +369,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência Vale Tour',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_vale_tour', // Chave para o seu arquivo de tradução
+        'des_agencia_vale_tour', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -384,13 +382,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência Jhon Jhon Turismo',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_jhon_jhon_turismo', // Chave para o seu arquivo de tradução
+        'des_agencia_jhon_jhon_turismo', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -398,13 +395,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência Luan Turismo',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_luan_turismo', // Chave para o seu arquivo de tradução
+        'des_agencia_luan_turismo', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -412,13 +408,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência JT Turismo',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_jt_turismo', // Chave para o seu arquivo de tradução
+        'des_agencia_jt_turismo', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+     
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -426,13 +421,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência Oceano Turismo',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_oceano_turismo', // Chave para o seu arquivo de tradução
+        'des_agencia_oceano_turismo', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -440,13 +434,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência Atins Adventure',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_atins_adventure', // Chave para o seu arquivo de tradução
+        'des_agencia_atins_adventure', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -454,13 +447,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência LZ Turismo',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_lz_turismo', // Chave para o seu arquivo de tradução
+        'des_agencia_lz_turismo', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+     
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -468,13 +460,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência Sol Turismo',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_sol_turismo', // Chave para o seu arquivo de tradução
+        'des_agencia_sol_turismo', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+     
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -482,13 +473,12 @@ final List<Map<String, dynamic>> listaAgencias = [
   },
   {
     'name': 'Agência Elite Ecoturismo',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'mainImage': 'assets/images/photo_card/saopaulo.jfif',
+    'imageCard': 'assets/images/photo_card/saopaulo.jfif',
     'descriptionKey':
-        'description_agencia_elite_ecoturismo', // Chave para o seu arquivo de tradução
+        'des_agencia_elite_ecoturismo', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -544,10 +534,9 @@ final List<Map<String, dynamic>> listaLanchonetes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_pizzaria_e_hamburgueria_marcony', // Chave para o seu arquivo de tradução
+        'des_pizzaria_e_hamburgueria', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -558,10 +547,9 @@ final List<Map<String, dynamic>> listaLanchonetes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_pizzaria_di_sabori', // Chave para o seu arquivo de tradução
+        'des_pizzaria_di_sabori', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -572,10 +560,9 @@ final List<Map<String, dynamic>> listaLanchonetes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_rota_do_churrasco', // Chave para o seu arquivo de tradução
+        'des_rota_do_churrasco', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -586,10 +573,9 @@ final List<Map<String, dynamic>> listaLanchonetes = [
     'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
     'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
     'descriptionKey':
-        'description_borges_food', // Chave para o seu arquivo de tradução
+        'des_borges_food', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+      
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -600,9 +586,9 @@ final List<Map<String, dynamic>> listaLanchonetes = [
 final List<Map<String, dynamic>> listaArtesanato = [
   {
     'name': 'Artesanato Art da Terra',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
-    'descriptionKey': 'description_artesanato_art_da_terra',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_arte_art_da_terra',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -610,9 +596,9 @@ final List<Map<String, dynamic>> listaArtesanato = [
   },
   {
     'name': 'Centro de Artesanato ',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
-    'descriptionKey': 'description_centro_de_artesanato',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_centro_de_artesanato',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -620,9 +606,9 @@ final List<Map<String, dynamic>> listaArtesanato = [
   },
   {
     'name': 'Casa da Castanha',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
-    'descriptionKey': 'description_casa_castanha',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_casa_da_castanha',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -630,9 +616,9 @@ final List<Map<String, dynamic>> listaArtesanato = [
   },
   {
     'name': 'Sandra Artesanato Boa Vista ',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
-    'descriptionKey': 'description_sandra_artesanato',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_sandra_artesanato',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
@@ -643,8 +629,8 @@ final List<Map<String, dynamic>> listaArtesanato = [
 final List<Map<String, dynamic>> listaDoceria = [
   {
     'name': 'Duna Doce',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_duna_doce',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -653,8 +639,8 @@ final List<Map<String, dynamic>> listaDoceria = [
   },
   {
     'name': 'Torés',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_tores',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -663,8 +649,8 @@ final List<Map<String, dynamic>> listaDoceria = [
   },
   {
     'name': 'Mundo Doce da Milla',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_mundo_doce_milla',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -673,8 +659,8 @@ final List<Map<String, dynamic>> listaDoceria = [
   },
   {
     'name': 'Doceria Candy Lover',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_doceria_candy_lover',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -683,8 +669,8 @@ final List<Map<String, dynamic>> listaDoceria = [
   },
   {
     'name': 'Prosa Doceria Afetiva',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_prosa_doceria_afetiva',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -693,8 +679,8 @@ final List<Map<String, dynamic>> listaDoceria = [
   },
   {
     'name': 'Chica Nuvem',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_chica_nuvem',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -703,8 +689,8 @@ final List<Map<String, dynamic>> listaDoceria = [
   },
   {
     'name': 'Bolinha de Sorvete',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_bolinha_sorvete',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -713,8 +699,8 @@ final List<Map<String, dynamic>> listaDoceria = [
   },
   {
     'name': 'Açái do Júnior',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_acai_junior',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -723,8 +709,8 @@ final List<Map<String, dynamic>> listaDoceria = [
   },
   {
     'name': 'Brocados por Açaí',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_brocados_por_acai',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -733,8 +719,8 @@ final List<Map<String, dynamic>> listaDoceria = [
   },
   {
     'name': '+Açaí',
-    'mainImage': 'assets/images/loja_capa.png',
-    'imageCard': 'assets/images/loja_card.png',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey': 'description_mais_acai',
     'photos': [],
     'openStatusKey': 'open_24h',
@@ -745,58 +731,39 @@ final List<Map<String, dynamic>> listaDoceria = [
 
 final List<Map<String, dynamic>> listaLavanderia = [
   {
-    'name': 'Bar do Armando',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'name': 'Lavatec Lavanderia',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey':
-        'description_bar_do_armando', // Chave para o seu arquivo de tradução
+        'des_lavatec_lavanderia', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+     
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
     'rating': 4.8,
   },
   {
-    'name': 'Bar do João',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'name': 'Lavanderia Escolher',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey':
-        'description_bar_do_joao', // Chave para o seu arquivo de tradução
+        'des_lavanderia_escolher', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
-    ],
-    'openStatusKey': 'open_all_day', // Chave para tradução do status
-    'timeValue': 'time_24h',
-    'rating': 4.8,
-  },
-];
-final List<Map<String, dynamic>> listaLoja = [
-  {
-    'name': 'Bar do Armando',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
-    'descriptionKey':
-        'description_bar_do_armando', // Chave para o seu arquivo de tradução
-    'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+     
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
     'rating': 4.8,
   },
   {
-    'name': 'Bar do João',
-    'mainImage': 'assets/images/images_de_fundo/fachadajacare.png',
-    'imageCard': 'assets/images/photo_card/restaurante_jacare.png',
+    'name': 'Lavanderia Escolher',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
     'descriptionKey':
-        'description_bar_do_joao', // Chave para o seu arquivo de tradução
+        'des_lavanderia_escolher', // Chave para o seu arquivo de tradução
     'photos': [
-      'assets/images/images_de_fundo/espaguete_jacare.jpg',
-      'assets/images/images_de_fundo/fachadajacare.png',
+     
     ],
     'openStatusKey': 'open_all_day', // Chave para tradução do status
     'timeValue': 'time_24h',
@@ -805,23 +772,94 @@ final List<Map<String, dynamic>> listaLoja = [
 ];
 final List<Map<String, dynamic>> listaBeleza = [
   {
-    'name': 'Lavanderia Lavô',
-    'mainImage': 'assets/images/lavanderia_capa.png',
-    'imageCard': 'assets/images/lavanderia_card.png',
-    'descriptionKey': 'description_lavanderia_lavo',
+    'name': 'Salão Gran capelli Beauty Artist',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_salao_gran_capelli',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
     'rating': 4.8,
   },
   {
-    'name': 'Lavanderia Lavô Express',
-    'mainImage': 'assets/images/lavanderia_capa.png',
-    'imageCard': 'assets/images/lavanderia_card.png',
-    'descriptionKey': 'description_lavanderia_lavo_express',
+    'name': 'Kilvia Karinne Estúdio de Beleza',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_kilvia_karrine',
+    'photos': [],
+    'openStatusKey': 'open_24h',
+    'timeValue': 'checkin_14h',
+    'rating': 4.8,
+  },
+  {
+    'name': 'Studio Rafaela Dias',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_studio_rafaela_dias',
+    'photos': [],
+    'openStatusKey': 'open_24h',
+    'timeValue': 'checkin_14h',
+    'rating': 4.8,
+  },
+  {
+    'name': 'Centro de Beleza by Denise',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_centro_de_beleza_by_denise',
+    'photos': [],
+    'openStatusKey': 'open_24h',
+    'timeValue': 'checkin_14h',
+    'rating': 4.8,
+  },
+  {
+    'name': 'Estética Bianca Fonseca',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_estetica_bianca_fonseca',
+    'photos': [],
+    'openStatusKey': 'open_24h',
+    'timeValue': 'checkin_14h',
+    'rating': 4.8,
+  },
+  {
+    'name': 'Esmalteria Mãos de Fada',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_esmalteria_maos_de_fada',
+    'photos': [],
+    'openStatusKey': 'open_24h',
+    'timeValue': 'checkin_14h',
+    'rating': 4.8,
+  },
+  {
+    'name': 'Confort Laser BHS',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_confort_laser_bhs',
+    'photos': [],
+    'openStatusKey': 'open_24h',
+    'timeValue': 'checkin_14h',
+    'rating': 4.8,
+  },
+  {
+    'name': 'Studio Julia Alves',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_studio_julia_alves',
+    'photos': [],
+    'openStatusKey': 'open_24h',
+    'timeValue': 'checkin_14h',
+    'rating': 4.8,
+  },
+  {
+    'name': 'Studio jacielly nail designer',
+    'mainImage': 'assets/images/photo_card/bambu.jfif',
+    'imageCard': 'assets/images/photo_card/bambu.jfif',
+    'descriptionKey': 'des_studio_jacielly_nail_designer',
     'photos': [],
     'openStatusKey': 'open_24h',
     'timeValue': 'checkin_14h',
     'rating': 4.8,
   },
 ];
+

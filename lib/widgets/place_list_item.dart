@@ -32,7 +32,7 @@ class PlaceListItem extends StatelessWidget {
           Text(
             subtitle,
             style: const TextStyle(
-              color: Colors.black26,
+              color: Colors.black,
               fontSize: 12,
               fontWeight: FontWeight.w400,
             ),

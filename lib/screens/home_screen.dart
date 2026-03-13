@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:lencois_hub/app_data.dart';
+import 'package:lencois_hub/screens/events_screen.dart';
+import 'package:lencois_hub/screens/explorar_page.dart';
+import 'package:lencois_hub/screens/list_screen.dart';
 import 'package:lencois_hub/screens/place_details_screen.dart';
+import 'package:lencois_hub/screens/transfers_screen.dart';
 import 'package:lencois_hub/widgets/category_item.dart';
 import 'package:lencois_hub/widgets/custom_botton_nav.dart';
 import 'package:lencois_hub/widgets/home_header.dart';
@@ -37,10 +42,6 @@ class _HomeScreenState extends State<HomeScreen> {
       'image': 'assets/images/categories/handcraft.jpg',
     },
     {'label': 'cat_laundry', 'image': 'assets/images/categories/laundry.jpg'},
-    {
-      'label': 'cat_clothing_store',
-      'image': 'assets/images/categories/clothing_store.jpg',
-    },
   ];
 
   @override
@@ -61,7 +62,28 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Colors.white,
 
       // 🔹 bottom nav fixa
-      bottomNavigationBar: const CustomBottonNav(),
+      bottomNavigationBar: CustomBottonNav(
+        onTap: (index) {
+          if (index == 1) {
+            // 1 é o índice do ícone de Eventos
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const EventsScreen()),
+            );
+          } else if (index == 2) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const TransfersScreen()),
+            );
+          } else if (index == 3) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const ExplorarPage()),
+            );
+          }
+          // Você pode adicionar outros 'if' para Transfer (index 2), etc.
+        },
+      ),
 
       body: SafeArea(
         child: Column(
@@ -69,25 +91,65 @@ class _HomeScreenState extends State<HomeScreen> {
             // 🔹 HEADER FIXO
             HomeHeader(),
             const SizedBox(height: 8),
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              padding: const EdgeInsets.only(left: 10, right: 10),
-              child: Row(
-                children: [
-                  ...categories.map((category) {
-                    return CategoryItem(
-                      label: Translator.t(category['label']!),
-                      imagePath: category['image']!,
-                    );
-                  }),
-                ],
-              ),
-            ),
+
             Expanded(
               child: SingleChildScrollView(
                 padding: const EdgeInsets.only(top: 12),
                 child: Column(
                   children: [
+                    SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      padding: const EdgeInsets.only(left: 10, right: 10),
+                      child: Row(
+                        children: [
+                          ...categories.map((category) {
+                            return CategoryItem(
+                              label: Translator.t(category['label']!),
+                              imagePath: category['image']!,
+                              onTap: () {
+                                List<Map<String, dynamic>> listaSelecionada;
+
+                                if (category['label'] == 'cat_restaurant') {
+                                  listaSelecionada = listaRestaurantes;
+                                } else if (category['label'] == 'cat_inn') {
+                                  listaSelecionada = listaPousadas;
+                                } else if (category['label'] ==
+                                    'cat_tour_agency') {
+                                  listaSelecionada = listaAgencias;
+                                } else if (category['label'] == 'cat_sweet') {
+                                  listaSelecionada = listaDoceria;
+                                } else if (category['label'] == 'cat_laundry') {
+                                  listaSelecionada = listaLavanderia;
+                                } else if (category['label'] ==
+                                    'cat_handcraft') {
+                                  listaSelecionada = listaArtesanato;
+                                } else if (category['label'] ==
+                                    'cat_beauty_salon') {
+                                  listaSelecionada = listaBeleza;
+                                } else if (category['label'] ==
+                                    'cat_fast_food') {
+                                  listaSelecionada = listaLanchonetes;
+                                } else {
+                                  listaSelecionada =
+                                      []; // Lista vazia para categorias sem dados ainda
+                                }
+
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => ListScreen(
+                                      categoriaTitulo:
+                                          category['label']!, // Passa a chave para traduzir lá
+                                      dadosDaCategoria: listaSelecionada,
+                                    ),
+                                  ),
+                                );
+                              },
+                            );
+                          }),
+                        ],
+                      ),
+                    ),
                     const SizedBox(height: 4),
                     const PromoCarousel(
                       images: [
@@ -100,7 +162,15 @@ class _HomeScreenState extends State<HomeScreen> {
                     SectionHeader(
                       title: Translator.t('popular_restaurants'),
                       onTap: () {
-                        print("Abrindo lista de todos os restaurantes...");
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ListScreen(
+                              categoriaTitulo: Translator.t('cat_restaurant'),
+                              dadosDaCategoria: listaRestaurantes,
+                            ),
+                          ),
+                        );
                       },
                     ),
                     const SizedBox(height: 4),
@@ -207,8 +277,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     SectionHeader(
                       title: Translator.t('popular_travel_agency'),
                       onTap: () {
-                        print(
-                          "Abrindo lista de todas as agências de turismo...",
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ListScreen(
+                              categoriaTitulo: Translator.t('cat_tour_agency'),
+                              dadosDaCategoria: listaAgencias,
+                            ),
+                          ),
                         );
                       },
                     ),
@@ -311,7 +387,15 @@ class _HomeScreenState extends State<HomeScreen> {
                     SectionHeader(
                       title: Translator.t('popular_inns'),
                       onTap: () {
-                        print("Abrindo lista de todas as pousadas e hotéis...");
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ListScreen(
+                              categoriaTitulo: Translator.t('cat_inn'),
+                              dadosDaCategoria: listaPousadas,
+                            ),
+                          ),
+                        );
                       },
                     ),
                     const SizedBox(height: 4),
