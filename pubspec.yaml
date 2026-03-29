@@ -1,0 +1,138 @@
+name: lencois_hub
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  carousel_slider: ^5.0.0
+  url_launcher: ^6.3.2
+  video_player: ^2.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/images/logo_lencoishub.png
+  - assets/images/background.png
+  - assets/images/logo_google.png
+  - assets/images/logo_login.png
+  - assets/images/categories/restaurant.jpg
+  - assets/images/categories/inn.jpg
+  - assets/images/categories/handcraft.jpg
+  - assets/images/categories/tour_agency.jpg
+  - assets/images/categories/itineraries.jpg
+  - assets/images/categories/bar.jpg
+  - assets/images/categories/square.jpg
+  - assets/images/categories/beauty_salon.jpg
+  - assets/images/categories/laundry.jpg
+  - assets/images/categories/clothing_store.jpg
+  - assets/images/place/lavatec.jfif
+  - assets/images/place/lavanderia.png
+  - assets/images/promo_banner/promo1.jpg
+  - assets/images/promo_banner/promo2.jpg
+  - assets/images/promo_banner/promo3.png
+  - assets/images/photo_card/restaurante_jacare.png
+  - assets/images/photo_card/restaurante_saborear.avif
+  - assets/images/photo_card/maisgostoso.png
+  - assets/images/photo_card/saopaulo.jfif
+  - assets/images/photo_card/evento_artesao.jpeg
+  - assets/images/photo_card/tigre_turismo.jfif
+  - assets/images/photo_card/vale_lencois.png
+  - assets/images/photo_card/boa_vista.jfif
+  - assets/images/photo_card/barreirinhas_pousada.png
+  - assets/images/photo_card/pousada_rancho.avif
+  - assets/images/images_de_fundo/fachadajacare.png
+  - assets/images/images_de_fundo/prog.png
+  - assets/images/images_de_fundo/educar.jpeg
+  - assets/images/images_de_fundo/arte.png
+  - assets/images/images_de_fundo/hea.png
+  - assets/images/images_de_fundo/jazz.png
+  - assets/images/images_de_fundo/arra.png
+  - assets/images/images_de_fundo/jacare_fotos.jpg
+  - assets/images/images_de_fundo/espaguete_jacare.jpg
+  - assets/images/images_de_fundo/ambiente_bambu.jfif
+  - assets/images/images_de_fundo/espaco_bambu.jfif
+  - assets/images/images_de_fundo/pizza_bambu.jfif
+  - assets/images/images_de_fundo/ambiente_saborear.webp
+  - assets/images/images_de_fundo/salada_saborear.webp
+  - assets/images/images_de_fundo/torta_saborear.webp
+  - assets/images/photo_card/bambu.jfif
+  - assets/images/images_de_fundo/agencia/vale_lencois_interior.jfif
+  - assets/images/images_de_fundo/agencia/passeio_vale_lencois.jfif  
+  - assets/images/images_de_fundo/agencia/paisagem_vale_lencois.jfif
+  - assets/images/images_de_fundo/pousada/rancho_quartos.avif
+  - assets/images/images_de_fundo/pousada/rancho_pousada.avif
+  - assets/images/images_de_fundo/pousada/rancho_paisagem.avif
+
+  - assets/images/explorar/b1.png
+  - assets/images/explorar/b2.png
+  - assets/images/explorar/b3.png
+  - assets/images/explorar/bb1.png
+  - assets/images/explorar/bb2.png
+  - assets/images/explorar/bb3.png
+  - assets/images/explorar/bb4.png
+  - assets/images/explorar/bb5.png
+  - assets/images/explorar/bb6.png
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+
+    - family: achiko
+      fonts:
+        - asset: assets/fonts/achiko.otf
+
+ 
