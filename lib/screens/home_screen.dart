@@ -3,6 +3,7 @@ import 'package:lencois_hub/app_data.dart';
 import 'package:lencois_hub/screens/events_screen.dart';
 import 'package:lencois_hub/screens/explorar_page.dart';
 import 'package:lencois_hub/screens/list_screen.dart';
+import 'package:lencois_hub/screens/perfil_menu_page.dart';
 import 'package:lencois_hub/screens/place_details_screen.dart';
 import 'package:lencois_hub/screens/transfers_screen.dart';
 import 'package:lencois_hub/widgets/category_item.dart';
@@ -78,7 +79,12 @@ class _HomeScreenState extends State<HomeScreen> {
           } else if (index == 3) {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) =>  const ExplorarPage()),
+              MaterialPageRoute(builder: (context) => const ExplorarPage()),
+            );
+          } else if (index == 4) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const PerfilMenuPage()),
             );
           }
           // Você pode adicionar outros 'if' para Transfer (index 2), etc.
