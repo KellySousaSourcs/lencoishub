@@ -84,7 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
           } else if (index == 4) {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const PerfilMenuPage()),
+              MaterialPageRoute(builder: (context) => const PerfilPage()),
             );
           }
           // Você pode adicionar outros 'if' para Transfer (index 2), etc.
